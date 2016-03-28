@@ -1,0 +1,70 @@
+/********** VARIABLES COLORES *********/
+$verde: #29a352;
+$azul: #19334d;
+$cafe: #996633;
+$naranja: #ff9900;
+$a1: #69d2e7;
+/********** /VARIABLES COLORES *********/
+/********** MIXINS **********/
+
+
+/********** /MIXINS **********/
+
+
+
+/***** header*****/
+header {
+	background-color: $verde;
+}
+	.icon-bar{
+		color: #fff;
+	}
+/****  /header *****/
+
+
+/**** section.header-bg-img ****/
+section.header-bg-img{
+	background-image: url(../img/carousel-bg.jpg)!important;
+}
+	section.header-bg-img h2, h5{
+		color: #fff;
+	}
+/**** /section.header-bg-img ****/
+
+
+/**** section.color-palette ****/
+section.color-palette{
+
+}
+	.color{
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+/**** /section.color-palette ****/
+
+
+section.About-Us{
+	background-color: $azul;
+	color: #fff;
+}
+	.About-Us img{
+		width: 400px;
+		height: 400px;
+	}
+
+section.What-We{
+	background-color: $verde;
+	color: #fff;
+}
+
+section.Best-Price{
+	background-color: $azul;
+}
+	section.Best-Price
+
+
+footer{
+	background-color: $verde;
+}
